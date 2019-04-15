@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+#myName {
+  font-weight:700;
+  margin:0;
+  font-size:32px;
+}
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.maltarelief.org/wp-content/uploads/2018/05/normandy-france.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: pink;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+.topthreeparagraphs {
+  color: purple;
+}
+
+#firstfav {
+  font-size: 30px;
+  font-weight: 500;
+  color: navy;
+  text-align: center;
+}
+
+#secondfav {
+  font-size: 24px;
+  font-weight: 450;
+  color: pink;
+  text-align: center;
+}
+
+#thirdfav {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+#fourthfav {
+  font-size: 16px;
+  font-weight: 350;
+  color: skyblue;
+  text-align: center;
+}
+
+#quotes {
+  font-weight: 700;
+  text-align: center;
+}
+
+#firstquote {
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+}
+#secondquote {
+  color: orange;
+  font-size: 23px;
+  font-family: italics;
+}
+#thirdquote {
+  color: aquamarine;
+  font-size: 15px;
+  font-family: impact;
+}
