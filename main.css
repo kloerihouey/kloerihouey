@@ -14,9 +14,11 @@ footer .row {
 }
 
 #myName {
-  font-weight:700;
+  font-weight:400;
   margin:0;
   font-size:32px;
+  color: navy;
+  font-family: fantasy;
 }
 header h1 {
   font-weight: 700;
@@ -53,7 +55,7 @@ header p {
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: pink;
+  color: white;
 }
 
 section .row img {
@@ -71,6 +73,7 @@ section .row img {
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
+  color: black;
 }
 
 .btn.btn-primary:hover {
@@ -103,54 +106,60 @@ footer li img {
   height: 32px;
 }
 .topthreeparagraphs {
-  color: purple;
+  color: black;
+  font-size: 20px;
 }
 
 #firstfav {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 450;
   color: navy;
   text-align: center;
+  font-family: monospace;
 }
 
 #secondfav {
   font-size: 24px;
   font-weight: 450;
-  color: pink;
+  color: navy;
   text-align: center;
+  font-family: monospace;
 }
 
 #thirdfav {
-  font-size: 20px;
-  font-weight: 400;
-  color: black;
+  font-size: 24px;
+  font-weight: 450;
+  color: navy;
   text-align: center;
+  font-family: monospace;
 }
 
 #fourthfav {
-  font-size: 16px;
-  font-weight: 350;
-  color: skyblue;
+  font-size: 24px;
+  font-weight: 450;
+  color: navy;
   text-align: center;
+  font-family: monospace;
 }
 
 #quotes {
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
+  font-family: sans-serif;
 }
 
 #firstquote {
-  color: red;
-  font-size: 30px;
-  font-family: arial;
+  color: grey;
+  font-size: 23px;
+  font-family: cursive;
 }
 #secondquote {
-  color: orange;
+  color: grey;
   font-size: 23px;
-  font-family: italics;
+  font-family: cursive;
 }
 #thirdquote {
-  color: aquamarine;
-  font-size: 15px;
-  font-family: impact;
+  color: grey;
+  font-size: 23px;
+  font-family: cursive;
 }
